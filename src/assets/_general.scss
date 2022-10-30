@@ -150,6 +150,8 @@ body {
 
 @include breakpoint('m') {
 
+    .burger-icon { display: block; }
+
     h1 {
         font-size: 3.5rem;
     }
