@@ -1,0 +1,70 @@
+.skills {
+    margin: -2rem 0;
+    position: relative;
+    top: -2.5rem;
+}
+
+.skill-item {
+    display: flex;
+    background: $color-accent;
+    padding: 2.5rem;
+    color: $color-text;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 2rem 0;
+
+    &__category {
+        flex: 0 0 33.33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: $accent-font-family;
+        font-weight: 700;
+        font-size: 1.875rem;
+        margin-right: 0.75rem;
+    }
+
+    &__body {
+        margin-left: 0.75rem;
+        font-size: 0.875rem;
+        
+    }
+
+    &__description {
+        line-height: 27px;
+    }
+
+    &__logos {
+        display: flex;
+        align-items: center;
+        margin: 0 -0.5rem;
+
+        > svg {
+            margin: 0 0.5rem;
+        }
+    }
+}
+
+@include breakpoint('m') {
+
+    .skills {
+        margin-top: 3rem;
+    }
+
+    .skill-item {
+        flex-direction: column;
+    }
+
+    .skill-item__category {
+        align-self: baseline;
+        margin-bottom: 1rem;
+    }
+
+    .skill-item__body {
+        margin: 0;
+    }
+
+}

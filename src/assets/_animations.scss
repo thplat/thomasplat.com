@@ -1,0 +1,14 @@
+.intro-enter-active,
+.intro-leave-active {
+    transition: all 0.2s ease-out;
+}
+
+.intro-enter-from {
+    transform: translateY(-45px);
+    opacity: 0;
+}
+
+.intro-enter-to {
+    transform: translateY(0);
+    opacity: 1; 
+}

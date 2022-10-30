@@ -1,0 +1,38 @@
+.contact-sidebar {
+    margin-bottom: 3rem;
+}
+
+.contact-panel {
+    padding: 1.5rem 6rem;
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-reel {
+    display: flex;
+    align-items: center;
+
+    img {
+        max-width: 84px;
+    }   
+}
+
+.name-info {
+    margin-left: 1.75rem;
+    font-family: $accent-font-family;
+
+    &__name {
+        font-weight: 700;
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.contact-info__email {
+    font-family: $accent-font-family;
+    font-weight: 700;
+    font-size: 1.25rem;
+}

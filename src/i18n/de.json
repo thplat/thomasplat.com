@@ -1,0 +1,26 @@
+{
+    "menu": {
+        "index": "Projekte",
+        "cv": "CV",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "index": {
+        "headline": "Hello, I'm Thomas Plat",
+        "asideCopy": "ich bin Web-Developer aus Böblingen. Als ich das erste mal in Berührung mit webbasierten Browsergames kam zog mich das Internet in seinen Bann. Dies war vor genau 14 Jahren. Seitdem begeistert mich die Entwicklung dynamischer Websites und Web-Applikationen nun schon. Doch nicht nur die Entwicklung an sich bereitet mir großen Spaß. Ich lege besonders großen Wert auf sauberen, testbaren und wiederverwendbaren Code. "
+    },
+    "cv": {
+        "labels": {
+            "birthday": "Geburtsdatum",
+            "address": "Adresse",
+            "email": "E-Mail",
+            "languages": "Sprachen"
+        },
+        "values": {
+            "birthday": "03.05.1993",
+            "address": "Herrschaftsgartenstr. 7, 71032 Böblingen",
+            "email": "info@thomasplat.com",
+            "languages": "Deutsch, Englisch, Russisch (Grundkenntnisse)"
+        }
+    }
+}
