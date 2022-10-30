@@ -37,7 +37,7 @@ export const useProjectStore = defineStore({
         description: 'this website is open-source! Check it out on github!',
         link: {
           name: 'Github',
-          url: 'https://github.com/thplat'
+          url: 'https://github.com/thplat/thomasplat.com'
         }
       },
       {
