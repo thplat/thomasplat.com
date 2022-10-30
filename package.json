@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build && cp public/.htaccess dist/.htaccess",
+    "build": "vue-tsc --noEmit && vite build && cp public/* dist/* && cp public/.htaccess dist/.htaccess",
     "preview": "vite preview --port 5050",
     "test:unit": "vitest --environment jsdom",
     "typecheck": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
