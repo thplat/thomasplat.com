@@ -12,12 +12,12 @@ defineProps<{ project: Project }>()
             <h2 class="project__headline">{{ project.title }}</h2>
             <div class="project__copy">{{ project.description }}</div>
 
-            <template v-if="project.online">
+            <template v-if="!project.offlineMessage">
                 <a v-if="project.link" class="project__url" :href="project.link.url" target="_blank">
                     <LinkIcon></LinkIcon> {{ project.link.name }}
                 </a>
             </template>
-            <span v-else class="project__offline">Temporarily offline</span>
+            <span v-else class="project__offline">{{ project.offlineMessage }}</span>
         </div>
     </div>
 </template>

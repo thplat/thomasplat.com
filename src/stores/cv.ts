@@ -53,6 +53,7 @@ export const useCvStore = defineStore({
         type: 'work',
         from: 2012,
         to: 2015,
+        position: 'Fullstack Developer',
         location: 'workID Werbeagentur (digital agency)',
         description: 'Fields of work: PHP-Development, Facebook app development, web application development, server administration'
       },      
@@ -60,6 +61,7 @@ export const useCvStore = defineStore({
         type: 'work',
         from: 2015,
         to: 2019,
+        position: 'Senior Backend Engineer',
         location: 'oddity GmbH (digital agency)',
         description: 'Fields of work: PHP-Development, web application development, planning and implementation of software design principles across the development team'
       },     
@@ -67,6 +69,7 @@ export const useCvStore = defineStore({
         type: 'work',
         from: 2019,
         to: 2020,
+        position: 'Senior Frontend Engineer',
         location: 'loadbee GmbH',
         description: 'Fields of work: Frontend- and UI-Development with Javascript & VueJS, PHP-Development, technical conception'
       },
@@ -74,15 +77,25 @@ export const useCvStore = defineStore({
         type: 'work',
         from: 2020,
         to: 2021,
+        position: 'Director',
         location: 'Growin Kim & Plat GbR',
         description: 'Fields of work: business management, frontend and backend development, technical conception'
       },
       {
         type: 'work',
         from: 2021,
+        to: 2022,
+        position: 'Senior Frontend Engineer',
         location: 'loadbee GmbH',
         description: 'Fields of work: Frontend- and UI-Development with Javascript & VueJS, technical conception'
-      },      
+      },
+      {
+        type: 'work',
+        from: 2022,
+        position: 'Senior Frontend Engineer',
+        location: 'Merkle DACH',
+        description: 'Fields of work: Frontend- and UI-Development with Javascript & VueJS, technical conception'
+      }
     ]
   }),
 

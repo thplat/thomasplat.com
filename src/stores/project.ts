@@ -10,8 +10,17 @@ export const useProjectStore = defineStore({
   state: (): RootState => ({
     projects: [
       {
+        type: 'PHP / Laravel / Javascript / Vue',
+        title: 'wildriftguides.gg',
+        description: 'a web application for guides written by Wild Rift players. A custom reactive guide editor allows for lots of flexibility when creating guides.',
+        link: {
+          name: 'wildriftguides.gg',
+          url: 'https://wildriftguides.gg'
+        }
+      },      
+      {
         type: 'Javascript / Node / Vue',
-        online: true,
+        offlineMessage: 'Project was online only during the event',
         title: 'noway-koreaclimb.de',
         description: 'a tracking application for Germanys biggest League of Legends streamer. A cheap $10 droplet handles over a million requests a day. Hail the power of caching!',
         link: {
@@ -21,7 +30,6 @@ export const useProjectStore = defineStore({
       },
       {
         type: 'Node',
-        online: true,
         title: 'Mocksrv',
         description: 'a library to mock API requests in the frontend without a server. Features a rich API for most flexibility. This is a work in progress.',
         link: {
@@ -32,22 +40,11 @@ export const useProjectStore = defineStore({
       },
       {
         type: 'Javascript / Vue',
-        online: true,
         title: 'thomasplat.com',
         description: 'this website is open-source! Check it out on github!',
         link: {
           name: 'Github',
           url: 'https://github.com/thplat/thomasplat.com'
-        }
-      },
-      {
-        type: 'PHP / Laravel / Javascript / Vue',
-        online: false, 
-        title: 'wildriftguides.gg',
-        description: 'a web application for guides written by Wild Rift players. A custom reactive guide editor allows for lots of flexibility when creating guides.',
-        link: {
-          name: 'wildriftguides.gg',
-          url: 'https://wildriftguides.gg'
         }
       },
     ]

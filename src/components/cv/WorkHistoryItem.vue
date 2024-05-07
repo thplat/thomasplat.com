@@ -14,6 +14,7 @@ defineProps<{
                 {{ !item.to ? `${ $t('cv.from') } ${item.from}` : `${item.from} - ${item.to}` }}
             </div>
             <div class="work-history-item__location">{{ item.location }}</div>
+            <div v-if="item.position" class="work-history-item__position">{{ item.position }}</div>
             <div v-if="item.description" class="work-history-item__description">{{ item.description }}</div>
         </div>        
     </div>
