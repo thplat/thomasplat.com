@@ -10,6 +10,16 @@ export const useProjectStore = defineStore({
   state: (): RootState => ({
     projects: [
       {
+        type: 'Node / Adonis / Javascript / Vue',
+        title: 'jobist.ai',
+        description: 'An AI-powered job posting generator that creates customized job listings in seconds. The platform streamlines recruitment by crafting tailored job descriptions through AI.',
+        link: {
+          name: 'jobist',
+          url: 'https://jobist.ai'
+        },
+        highlight: true
+      }, 
+      {
         type: 'PHP / Laravel / Javascript / Vue',
         title: 'wildriftguides.gg',
         description: 'a web application for guides written by Wild Rift players. A custom reactive guide editor allows for lots of flexibility when creating guides.',
@@ -17,17 +27,16 @@ export const useProjectStore = defineStore({
           name: 'wildriftguides.gg',
           url: 'https://wildriftguides.gg'
         }
-      },      
+      },   
       {
-        type: 'Javascript / Node / Vue',
-        offlineMessage: 'Project was online only during the event',
-        title: 'noway-koreaclimb.de',
-        description: 'a tracking application for Germanys biggest League of Legends streamer. A cheap $10 droplet handles over a million requests a day. Hail the power of caching!',
+        type: 'Javascript / Vue',
+        title: 'thomasplat.com',
+        description: 'this website is open-source! Check it out on github!',
         link: {
-          name: 'noway-koreaclimb.de',
-          url: 'https://noway-koreaclimb.de'
+          name: 'Github',
+          url: 'https://github.com/thplat/thomasplat.com'
         }
-      },
+      },    
       {
         type: 'Node',
         title: 'Mocksrv',
@@ -37,16 +46,7 @@ export const useProjectStore = defineStore({
           url: 'https://github.com/thplat/mocksrv'
         },
         highlight: true
-      },
-      {
-        type: 'Javascript / Vue',
-        title: 'thomasplat.com',
-        description: 'this website is open-source! Check it out on github!',
-        link: {
-          name: 'Github',
-          url: 'https://github.com/thplat/thomasplat.com'
-        }
-      },
+      },                  
     ]
   }),
 })

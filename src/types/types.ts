@@ -1,7 +1,7 @@
 export interface Project {
     type: string,
-    online: boolean,
     title: string,
+    offlineMessage?: string,
     description: string,
     link?: {
         name: string,
