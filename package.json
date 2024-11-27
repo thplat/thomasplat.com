@@ -1,6 +1,6 @@
 {
   "name": "thomasplat.com",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build && cp public/* dist/* && cp public/.htaccess dist/.htaccess",
