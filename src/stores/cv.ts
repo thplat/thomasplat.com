@@ -1,4 +1,4 @@
-import type { CvBasicItem, WorkHistoryEntry } from '@/types/types'
+import type { CvBasicItem, WorkHistoryEntry } from '@/types'
 import config from '@/config/app'
 import { defineStore } from 'pinia'
 import { i18n } from '@/plugins/i18n'

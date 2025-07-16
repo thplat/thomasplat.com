@@ -1,4 +1,5 @@
-import type { Project } from '@/types/types'
+import { i18n } from '@/plugins/i18n'
+import type { Project } from '@/types'
 import { defineStore } from 'pinia'
 
 interface RootState {
@@ -17,7 +18,7 @@ export const useProjectStore = defineStore({
           name: 'jobist',
           url: 'https://jobist.ai'
         },
-        highlight: true
+        offlineMessage: i18n.t('projects.jobist.offlineMessage'),
       }, 
       {
         type: 'PHP / Laravel / Javascript / Vue',

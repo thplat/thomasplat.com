@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Project } from '@/types/types'
+import type { Project } from '@/types'
 import LinkIcon from '@/assets/icons/LinkIcon.vue'
 
 defineProps<{ project: Project }>()

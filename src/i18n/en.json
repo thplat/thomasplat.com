@@ -11,26 +11,31 @@
     },
     "index": {
         "headline": "Hello, I'm Thomas Plat",
-        "asideCopy": "I am a passionate Web-Developer from Germany currently living in Belgrade. As a juvenile I wanted to create my own game and thus I was sucked into the world of Web Development. This was 15 years ago. Ever since I am ecstatic about developing dynamic websites and web applications. It is not only development itself that is fun for me. I have a strong focus on clean, testable and reusable code."
+        "asideCopy": "I am a passionate Web-Developer from Germany. As a juvenile I wanted to create my own game and thus I was sucked into the world of Web Development. This was 15 years ago. Ever since I am ecstatic about developing dynamic websites and web applications. It is not only development itself that is fun for me. I have a strong focus on clean, testable and reusable code."
     },
     "cv": {
         "from": "From",
         "labels": {
             "name": "Name",
             "birthday": "Date of birth",
-            "address": "Address",
+            "address": "City",
             "email": "E-Mail",
             "languages": "Languages"
         },
         "values": {
             "name": "Thomas Plat",
             "birthday": "03.05.1993",
-            "address": "Herrschaftsgartenstr. 7, 71032 Böblingen, Germany",
+            "address": "Böblingen, Germany",
             "languages": "German, English, Russian (Basic)"
         }
     },
     "skills": {
         "headline": "The way I work",
         "copy": "Over the course of my carreer I have worked with many technologies, languages and concepts that allowed me to overcome any obstacles along my way. Get to know the toolchain that I am working with on a daily basis."
+    },
+    "projects": {
+        "jobist": {
+            "offlineMessage": "Currently Offline"
+        }
     }
 }

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useProjectTransitions } from './project-transitions'
-import type { Project } from '@/types/types';
+import type { Project } from '@/types';
 import ProjectPanel from './ProjectPanel.vue'
 
 defineProps<{ projects: Project[] }>()

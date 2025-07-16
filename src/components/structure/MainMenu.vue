@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { RouteDefinition } from '@/types/types';
+import type { RouteDefinition } from '@/types';
 import routes from '@/router/routes'
 import { navigateTo } from '@/composables/page-position-handler'
 import { useRoutingStore } from '@/stores/routing';

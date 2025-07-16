@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { WorkHistoryEntry } from '@/types/types';
+import type { WorkHistoryEntry } from '@/types';
 
 defineProps<{
     item: WorkHistoryEntry

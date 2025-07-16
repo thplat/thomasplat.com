@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Skill } from '@/types/types';
+import type { Skill } from '@/types';
 import { defineAsyncComponent, type Component } from 'vue';
 
 const LogoMap: { [key: string]: Promise<Component> } = {

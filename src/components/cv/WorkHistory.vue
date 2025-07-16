@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { WorkHistoryEntry } from '@/types/types';
+import type { WorkHistoryEntry } from '@/types';
 import WorkHistoryItem from './WorkHistoryItem.vue';
 import { useTransitions } from '@/components/transition/list-stagger'
 
